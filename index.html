@@ -4,18 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="icon" type="image/gif/png" src="/assets/images/todo-list-icon2.png">
+    <link rel="icon" type="image/png" href="./assets/images/todo-list-icon2.png">
+
     <title>ListNotLost</title>
 
     <!-- link to semantic ui CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
 
 </head>
 
 <body>
 
 
-    <h1>List Not Lost</h1>
+    <h2 class="ui header">
+        <img src="./assets/images/todo-list-icon2.png">
+        <div class="content">
+            List Not Lost
+            <div class="sub header">My Personalized Planner</div>
+        </div>
+    </h2>
+    <div class="ui action input">
+        <input type="text" placeholder="Search...">
+        <select class="ui compact selection dropdown">
+          <option selected="all">All</option>
+          <option value="gp-ministry">GP Ministry</option>
+          <option value="gp-student">GP Students</option>
+          <option value="gradSchool">Grad School</option>
+          <option value="job">Job</option>
+          <option value="life">Life</option>
+
+        </select>
+        <div class="ui button">Search</div>
+      </div>
+
+
     
 
 

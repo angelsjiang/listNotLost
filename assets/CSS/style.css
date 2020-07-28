@@ -1,0 +1,11 @@
+body {
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 16;
+}
+.ui.header,
+.ui.action.input {
+    text-align: center;
+}
