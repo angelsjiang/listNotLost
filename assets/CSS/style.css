@@ -5,15 +5,18 @@ body {
 .ui.raised.segment {
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 70%;
+}
+
+.row {
+    width: 100%;
 }
 
 .ui.header,
 .ui.action.input {
-    text-align: center;
     margin-bottom: 5%;
 }
 
-.ui.attached.segment {
-    width: 70%;
-}
+
