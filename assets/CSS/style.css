@@ -1,13 +1,27 @@
 body {
     font-size: 16;
+    padding-top: 3%;
+}
+
+.ui.basic.segment.daily.verse {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    
 }
 
 .ui.raised.segment {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    /* background-image: url("../images/watercolor-bg1.jpg"); */
+    /* background-position: center; */
+    padding-top: 3%;
+    padding-bottom: 3%;
     padding-left: 5%;
     padding-right: 5%;
     width: 70%;
+    height: 95%;
+    overflow: scroll;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {
@@ -17,6 +31,12 @@ body {
 .ui.header,
 .ui.action.input {
     margin-bottom: 5%;
+}
+
+.ui.header,
+.menu_buttons {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
